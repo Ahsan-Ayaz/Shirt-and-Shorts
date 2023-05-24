@@ -109,6 +109,11 @@
 {{ content_for_header }}
 {% endunless %}
 {% include 'customify-source' %}
+<style>
+  body{
+    background-color: black;
+  }
+</style>
 </head>
 
 <body class="template-{{ request.page_type | handle }}">
